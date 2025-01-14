@@ -36,7 +36,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-span-1 xl:rows-span-4">
+                <div className="col-span-1 xl:row-span-4">
                     <div className="grid-container">
                         <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
                             <Globe
@@ -60,7 +60,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">I work remotely across most timezones.</p>
                             <p className="grid-subtext">I`m based in Canada, with remote work available.</p>
-                            <Button name="Contact Me" isBeam containerClass="w-full mt:10" />
+                            <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
                         </div>
                     </div>
                 </div>
@@ -68,6 +68,7 @@ const About = () => {
                     <div className="grid-container">
                         <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
                         <div>
+                            <p className="grid-headtext">My passion for Coding</p>
                             <p className="grid-subtext"> I have a passion for solving problems and creating solutions
                                 through code. For me, coding is more than just a career - it`s what truly inspires me.
                             </p>
