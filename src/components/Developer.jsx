@@ -1,5 +1,6 @@
 import { useGLTF, useAnimations, useFBX } from '@react-three/drei';
 import { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';  // Import PropTypes
 
 const Developer = ({ animationName = 'idle', ...props }) => {
     const group = useRef();
@@ -53,6 +54,11 @@ const Developer = ({ animationName = 'idle', ...props }) => {
             )}
         </group>
     );
+};
+
+// Prop validation
+Developer.propTypes = {
+    animationName: PropTypes.oneOf(['idle', 'salute', 'clapping', 'victory']),
 };
 
 useGLTF.preload('/models/animations/developer.glb');
