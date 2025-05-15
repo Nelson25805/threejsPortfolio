@@ -67,7 +67,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 className="field-input"
-                                placeholder='John Doe' />
+                                placeholder='Bob Smith' />
                         </label>
                         <label className="space-y-3">
                             <span className="field-label">Email</span>
@@ -78,7 +78,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 className="field-input"
-                                placeholder='JohnDoe@gmail.com' />
+                                placeholder='BobSmith@gmail.com' />
                         </label>
                         <label className="space-y-3">
                             <span className="field-label">Your message</span>
