@@ -18,7 +18,7 @@ const About = () => {
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+                        <img src="assets/grid1.JPG" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
                             <p className="grid-headtext">Hi, I`m Nelson</p>
                             <p className="grid-subtext">Recently graduated with a diploma in Software Development,
@@ -32,7 +32,7 @@ const About = () => {
                         <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">I specialize in JavaScript with a focus on React.</p>
+                            <p className="grid-subtext">I specialize in React, with a strong foundation in Node.js, HTML, Java, Javascript, Python, and C#.</p>
                         </div>
                     </div>
                 </div>
