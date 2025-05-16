@@ -64,7 +64,7 @@ export const navLinks = [
         'Built with  C#, SQLite, and .Net Core. Pokedex Tracker is designed all your Pokémon tracking needs.',
       href: 'https://github.com/Nelson25805/pokedexTracker',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: '/assets/pokedexProjectIcon.ico',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -74,23 +74,18 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'C#',
+          path: '/assets/cSharp.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'SQLite',
+          path: 'assets/SQLite.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: '.Net Core',
+          path: '/assets/NET core.png',
         },
       ],
     },
@@ -101,8 +96,7 @@ export const navLinks = [
         'With IGDB Game Searcher, you can easily find the game you are looking for. Built with Python, PYQT5, QDarkStyle, IGDB SPI, and Pandas.',
       href: 'https://github.com/Nelson25805/igdbGameSearcher',
       texture: '/textures/project/test.mp4',
-      // texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      logo: '/assets/igdbLogo.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -112,33 +106,28 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Python',
+          path: '/assets/python.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'PYQT5',
+          path: 'assets/Qt Framework.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Pandas',
+          path: '/assets/Pandas.png',
         },
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Flipbook Converter - Image to Flipbook Converter',
+      desc: 'Flipbook Converter is a Python GUI application that allows users to convert images into flipbooks. It provides a user-friendly interface for creating flipbooks from a series of  word or pdf documents.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: '/textures/project/project3.mp4',
+        'Built with Python, Tkinter, JQuery, PDF2Images, Doc2Pdf, and Turn.Js. Flipbook Converter is designed to make creating flipbooks easy and fun.',
+      href: 'https://github.com/Nelson25805/flipbookConverter',
+      texture: '/textures/project/flipbookComputerExample.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -151,23 +140,13 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Python',
+          path: '/assets/python.png'
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'JQuery',
+          path: 'assets/jQuery.png',
         },
       ],
     },
